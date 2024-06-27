@@ -9,7 +9,7 @@ export default component$(() => {
       <h1 class="animate-gradient bg-300% bg-gradient-to-r from-orange-700 via-blue-500 to-green-400 bg-clip-text py-2 text-4xl font-bold text-transparent lg:py-8 lg:text-6xl">
         Welcome to Thomas Abstellkammer, very Whimsical
       </h1>
-      <div class="group max-h-[500px]">
+      <div class="group max-h-[768px] max-w-[768px]">
         <Front class="max-h-full w-auto group-hover:hidden" />
         <Back class="hidden h-full max-h-full w-auto group-hover:block" />
       </div>
