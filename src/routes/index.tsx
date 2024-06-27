@@ -1,25 +1,21 @@
 import { component$ } from "@builder.io/qwik";
 import type { DocumentHead } from "@builder.io/qwik-city";
+import Frog from "~/assets/frog.png?jsx";
 
 export default component$(() => {
   return (
-    <>
-      <h1>Hi 👋</h1>
-      <div>
-        Can't wait to see what you build with qwik!
-        <br />
-        Happy coding.
-      </div>
-    </>
+    <div class="flex min-h-full items-center justify-center bg-white">
+      <Frog />
+    </div>
   );
 });
 
 export const head: DocumentHead = {
-  title: "Welcome to Qwik",
+  title: "Thomas Abstellkammer",
   meta: [
     {
       name: "description",
-      content: "Qwik site description",
+      content: "Very whimsical",
     },
   ],
 };
